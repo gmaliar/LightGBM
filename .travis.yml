@@ -14,7 +14,7 @@ env:
   global:  # default values
     - PYTHON_VERSION=3.7
   matrix:
-    - TASK=regular PYTHON_VERSION=3.6
+    - TASK=regular PYTHON_VERSION=3.8
     - TASK=sdist PYTHON_VERSION=2.7
     - TASK=bdist
     - TASK=if-else
